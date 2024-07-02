@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-container {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 250px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    margin: 0;
+    font-weight: 900;
+  }
+  .hero-body {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+  }
+  .hero-subtext {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .hero-text {
+    width: 400px;
+  }
+  
+  .hero-body button {
+    margin-top: 10px;
+    padding: 6px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882f6;
+    border: 0;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 0px;
+    gap:20px;
+  }
+  
+  .img-rows p {
+    font-size: 18px;
+  }
+  .body-title {
+      font-size: 36px;
+      font-weight: 900;
+  }
+  .img-rows {
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    flex-wrap: wrap;
+  }
+  
+  .img-rows div {
+      width:150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  .img-rows img{
+      border-radius: 20px;
+      border:2px solid #3882f6
+  }
+  
+  .quote {
+    background-color: #E5E7EB;
+    color: #0c1022;
+    font-size: 36px;
+    padding:50px 250px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  
+  }
+  
+  .quote .quote-author{
+    color:black;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+    font-style: normal;
+  }
+  
+  .cta-container {
+    display:flex;
+    background-color: #3882f6 ;
+    color: white;
+    width: 1000px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .cta-title {
+    font-weight: 600;
+    font-size: larger;
+    margin-bottom: 5px;
+  }
+  .cta-subtext {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .cta-container button{
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    padding: 6px 15px;
+  }
+  
+  .footer {
+    background-color: #E5E7EB;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
